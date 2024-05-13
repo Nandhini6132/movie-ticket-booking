@@ -1,0 +1,10 @@
+.movie-list{
+    display: flex;
+    gap: 46px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.streaming{
+    margin-left: 14rem !important;
+}
