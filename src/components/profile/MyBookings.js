@@ -198,7 +198,10 @@ const MyBookings = ({ user, selectedSeats }) => {
                                 gap={2}
                               >
                                 {a.seat
-                                  ?.filter((seat) => typeof seat !== "object")
+                                    ?.filter(
+                                      (seat) =>
+                                        !seat.includes("[object Object]")
+                                    )
                                   .map((seat, index) => (
                                     <Box
                                       padding={1.5}

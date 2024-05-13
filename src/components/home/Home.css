@@ -1,6 +1,8 @@
 .bg-img{
-    background-image: url('https://img.freepik.com/free-vector/cinema-stage-background-with-clapperboard-popcorn-chairs_1017-38722.jpg?w=1380&t=st=1715325418~exp=1715326018~hmac=e3f48fec8a2351e2aefaa66d86e9132f9df762d59ca12d1ecb002bad5b169b90');
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/375/901/153/king-kong-2005-poster-monkey-girl-wallpaper-preview.jpg');
     height: 400px;
     width: 100%;
-    background-position: center;
+    background-position: 0px -240px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
